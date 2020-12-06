@@ -1,0 +1,67 @@
+.main {
+  position: relative;
+  width: 12.5rem;
+  height: 3.125rem;
+}
+
+.selectDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.5rem;
+  padding: 0.875rem;
+  border: 1px solid #000;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.selectDiv p {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #aaaaaa;
+}
+
+.selectDiv p span {
+  font-size: 0.75;
+  font-weight: 500;
+  color: #000;
+  margin-right: 0.625rem;
+}
+
+.selectDiv p i {
+  color: #000;
+  transition: all 0.2s;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.selectOptions {
+  width: 12.5rem;
+  list-style: none;
+  text-align: center;
+  border: 1px solid #c4c4c4;
+  border-radius: 34px 34px 10px 10px;
+  padding: 50px 15px 15px 15px;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.selectOptions li {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #000;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.selectOptions li:not(:last-child) {
+  border-bottom: 1px solid #c4c4c4;
+}

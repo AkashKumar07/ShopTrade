@@ -1,0 +1,37 @@
+.inviteAndEarn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(90.06deg, #181716 0%, #ed4e08 99.97%);
+  flex-wrap: wrap;
+}
+
+.inviteText {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 500;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.inviteButton {
+  width: 94px;
+  height: 29px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 0.875rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 810px) {
+  .inviteText {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

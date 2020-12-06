@@ -1,0 +1,80 @@
+.controls {
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.controls p {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.controls p span {
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.currentFilter {
+  padding: 15px 0;
+}
+
+.currentFilter p {
+  font-size: 1.3125rem;
+  font-weight: 700;
+}
+
+.currentFilter p span {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #c4c4c4;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.filters p {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.filterOption {
+  color: #c4c4c4;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 15px;
+  border: 1px solid #c4c4c4;
+  margin-right: 10px;
+  border-radius: 52px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.filterOptionActive {
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 15px;
+  border: 1px solid #000;
+  margin-right: 10px;
+  border-radius: 52px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .options {
+    flex-direction: column;
+  }
+}
